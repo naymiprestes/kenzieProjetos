@@ -1,0 +1,62 @@
+
+body{
+    background-color: black;
+}
+
+.logo_card{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+h2{
+    margin: 20px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+.img_avatar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.imagem{
+    width: 200px;
+}
+
+.imagem:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    cursor: default;
+}
+
+.botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin: 60px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+}
